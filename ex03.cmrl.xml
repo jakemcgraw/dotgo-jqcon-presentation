@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmrl xmlns:dotgo="http://dotgo.com/cmrl/1.0">
+  <match pattern="">
+    <message><content>Reply:<br />
+<a query="domain foo" /> for foo<br />
+<a query="domain foo bar" /> for foobar<br /></content></message>
+  </match>
+  <match pattern="foo">
+    <message><content>Foo</content></message>
+  </match>
+  <match pattern="foo bar">
+    <message><content>Foobar</content></message>
+  </match>
+</cmrl>
