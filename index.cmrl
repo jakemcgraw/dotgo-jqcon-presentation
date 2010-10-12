@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmrl xmlns:dotgo="http://dotgo.com/cmrl/1.0">
   <match pattern="">
-    <message><content>Jake McGraw<br />
+    <message><content>JAKEMCGRAW.COM<br />
+<br />
+Jake McGraw<br />
+<br />
 Reply<br />
 <a query="jakemcgraw jqcon" /> for jQuery Conference 2010<br />
 <a query="jakemcgraw time"> for current time</a></content></message>
   </match>
   <match pattern="foo">
     <match pattern="">
-      <message><content>Reply<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+<br />
+Reply<br />
 <a query="jakemcgraw foo bar" /> for foobar<br />
 <a query="jakemcgraw foo spam" /> for foospam</content></message>
     </match>
     <match pattern="bar">
-      <message><content>foobar</content></message>
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+foobar</content></message>
     </match>
     <match pattern="spam">
-      <message><content>foospam</content></message>
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+foospam</content></message>
     </match>
   </match>
   <match pattern="time">
@@ -24,94 +34,132 @@ Reply<br />
   </match>
   <match pattern="jqcon">
     <match pattern="">
-      <message><content>super simple sms<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+super simple sms<br />
 with DOTGO<br />
+<br />
 Reply <a query="jakemcgraw jqcon presenter" /> for next slide</content></message>
     </match>
     <match pattern="presenter">
-      <message><content>presenter<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+presenter<br />
 jake mcgraw<br />
 developer at DOTGO<br />
 j.mcgraw@dotgo.com<br />
+<br />
 Reply <a query="jakemcgraw jqcon sms rocks" /> for next slide</content></message>
     </match>
     <match pattern="sms">
       <match pattern="rocks">
-        <message><content>sms rocks<br />
+        <message><content>JAKEMCGRAW.COM<br />
+<br />
+sms rocks<br />
 *always available<br />
 *optimized mobile interface<br />
 *higher engagement<br />
+<br />
 Reply <a query="jakemcgraw jqcon sms sucks" /> for next slide</content></message>
       </match>
       <match pattern="sucks">
-        <message><content>sms sucks<br />
+        <message><content>JAKEMCGRAW.COM<br />
+<br />
+sms sucks<br />
 *dedicated short codes are expensive, slow and restrictive<br />
 *sms aggregators are expensive<br />
 *third party sms services suffer from the same issues<br />
+<br />
 Reply <a query="jakemcgraw jqcon solution" /> for next slide</content></message>
       </match>
     </match>
     <match pattern="solution">
-      <message><content>solution<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+solution<br />
 make sms apps more like web apps<br />
 *own the access method<br />
 *own the app code<br />
 *remove the high cost<br />
 *diminish third party importance<br />
+<br />
 Reply <a query="jakemcgraw jqcon DOTGO" /> for next slide</content></message>
     </match>
     <match pattern="DOTGO">
-      <message><content>DOTGO<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+DOTGO<br />
 build an sms app like a web app<br />
 *instantly deploy code to your server<br />
 *your domain as a shortcode keyword<br />
 *send/receive messages for free<br />
 *access a ton of additional features<br />
+<br />
 Reply <a query="jakemcgraw jqcon compare" /> for next slide</content></message>
     </match>
     <match pattern="compare">
-      <message><content>compare<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+compare<br />
 download chart <url>http://jakemcgraw.com/jqcon/compare.jpg</url><br />
+<br />
 Reply <a query="jakemcgraw jqcon cmrl" /> for next slide</content></message>
     </match>
     <match pattern="cmrl">
-      <message><content>cmrl<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+cmrl<br />
 concise message routing language<br />
 *xml-based language for text messaging content<br />
 *describes what happens when a user texts a domain name<br />
+<br />
 Reply <a query="jakemcgraw jqcon hello world" /> for next slide</content></message>
     </match>
     <match pattern="hello world">
-      <message><content>hello world<br />
-*save “index.cmrl” to your domain root<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+hello world<br />
+*save "index.cmrl" to your domain root<br />
 *download example 1 <url>http://jakemcgraw.com/jqcon/ex01.cmrl.xml</url><br />
-*text “domain” to DOTCOM (368266)<br />
+*text "domain" to DOTCOM (368266)<br />
+<br />
 Reply <a query="jakemcgraw jqcon match hierarchy" /> for next slide</content></message>
     </match>
     <match pattern="match hierarchy">
-      <message><content>match hierarchy<br />
-*use “match” tags to create a hierarchy<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+match hierarchy<br />
+*use "match" tags to create a hierarchy<br />
 *download example 2 <url>http://jakemcgraw.com/jqcon/ex02.cmrl.xml</url><br />
-*text “domain foo” or “domain foo bar”<br />
+*text "domain foo" or "domain foo bar"<br />
+<br />
 Reply <a query="jakemcgraw jqcon reply to navigate" /> for next slide</content></message>
     </match>
     <match pattern="reply to navigate">
-      <message><content>reply to navigate<br />
-*use “a” tags to create reply codes<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+reply to navigate<br />
+*use "a" tags to create reply codes<br />
 *download example 3 <url>http://jakemcgraw.com/jqcon/ex03.cmrl.xml</url>
-*text “domain” and reply “1” or “2”<br />
+*text "domain" and reply "1" or "2"<br />
+<br />
 Reply <a query="jakemcgraw jqcon dynamic content" /> for next slide</content></message>
     </match>
     <match pattern="dynamic content">
-      <message><content>dynamic content<br />
-*use “engine” tags to generate messages<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+dynamic content<br />
+*use "engine" tags to generate messages<br />
 *download example 4 <url>http://jakemcgraw.com/jqcon/ex04.cmrl.xml</url><br />
 *download example 5 <url>http://jakemcgraw.com/jqcon/ex05.phps</url><br />
-*text “domain time” to get current time<br />
+*text "domain time" to get current time<br />
+<br />
 Reply <a query="jakemcgraw jqcon much more" /> for next slide</content></message>
     </match>
     <match pattern="much more">
-      <message><content>much more<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+much more<br />
 *subscriptions<br />
 *push updates<br />
 *keyword corrections<br />
@@ -119,15 +167,17 @@ Reply <a query="jakemcgraw jqcon much more" /> for next slide</content></message
 *analytics<br />
 *premium accounts<br />
 additional tld shortcodes<br />
-*368266 (.com)<br />
-*368638 (.net)<br />
-*368674 (.org)<br />
-*368468 (.gov)<br />
-*368338 (.edu)<br />
+*DOTCOM (368266)<br />
+*DOTNET (368638)<br />
+*DOTORG (368674)<br />
+*DOTGOV (368468)<br />
+*DOTEDU (368338)<br />
 </content></message>
     </match>
     <match pattern="sources">
-      <message><content>sources<br />
+      <message><content>JAKEMCGRAW.COM<br />
+<br />
+sources<br />
 *<url>http://gigaom.com/2007/03/16/10-things-to-know-about-short-codes/</url><br />
 *<url>http://dotgo.com/Support/Documentation/</url>
 </content></message>
